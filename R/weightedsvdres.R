@@ -1,3 +1,5 @@
+#' @export WeightedSvdRes
+
 WeightedSvdRes <- function(data, weight = NULL, Ncomp = 2){
   Ngen = nrow(data)
   Nenv = ncol(data)

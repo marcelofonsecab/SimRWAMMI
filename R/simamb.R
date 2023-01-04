@@ -1,3 +1,5 @@
+#' @export sim.amb
+
 sim.amb <- function(seed = NULL, Ngen = 100, Nenv = 8, Ncomp = 2,
                     effectGlobal = c(mean = 15, sd = sqrt(3)),
                     effectGen = c(mean = 5, sd = 1),

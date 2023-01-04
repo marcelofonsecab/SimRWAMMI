@@ -1,3 +1,5 @@
+#' @export ammi.model
+
 ammi.model <- function(dataframe, Ncomp = 2){
   df.mean = transform_usable_data(dataframe, mean, type = "dataframe")
   Ngen = nlevels(df.mean$gen)

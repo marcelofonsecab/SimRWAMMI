@@ -1,3 +1,5 @@
+#' @export LMM.Error_variance
+
 LMM.Error_variance = function(data){
   quant.gen = length(unique(data$gen))
   quant.env = length(unique(data$env))

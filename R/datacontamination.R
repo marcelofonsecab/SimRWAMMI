@@ -1,3 +1,5 @@
+#' @export Data_Contamination
+
 Data_Contamination = function(data, porcentagem = 5, seed = 1,
                               tipo = "shift", k = 5, c = 10){
   set.seed(seed)

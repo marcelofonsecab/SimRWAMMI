@@ -1,3 +1,5 @@
+#' @export rwammi.model
+
 rwammi.model <- function(dataframe, weight = NULL, Ncomp = 2){
   data = transform_usable_data(dataframe, median, "dataframe")
   Ngen = nlevels(data$gen)

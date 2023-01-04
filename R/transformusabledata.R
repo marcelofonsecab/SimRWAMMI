@@ -1,3 +1,5 @@
+#' @export transform_usable_data
+
 transform_usable_data = function(dataframe, func, type = c("dataframe", "matrix")){
   type_aux = c("dataframe", "matrix")
   match.arg(type, type_aux)

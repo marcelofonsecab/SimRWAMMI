@@ -1,3 +1,5 @@
+#' @export Weights
+
 Weights = function(data, errorvariances){
 
   Ngen = nlevels(data$gen)

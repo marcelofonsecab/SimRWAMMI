@@ -1,3 +1,5 @@
+#' @export Create.Replications
+
 Create.Replications = function(data, reps = 2, sig = 1){
 
   Nenv = length(levels(data$env))

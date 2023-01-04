@@ -1,3 +1,5 @@
+#' @export wammi.model
+
 wammi.model <- function(data, weight = NULL, Ncomp = 2){
   dataframe = transform_usable_data(data, mean, type = "dataframe")
   Nenv = nlevels(dataframe$env)

@@ -1,3 +1,5 @@
+#' @export Error_Var
+
 Error_Var = function(data, cluster = NULL){
 
   if(!is.null(cluster)){
