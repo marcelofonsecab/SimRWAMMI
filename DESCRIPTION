@@ -1,0 +1,12 @@
+Package: simRWAMMI
+Type: Package
+Title: Simulations for all generalized AMMI models
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <fonsecabmarcelo@gmail.com>
+Description: Simulate various types of data for AMMI modelling
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: lme4, tidyverse, MASS, reshape2, rsvddpd, robustlmm, pbapply, parallel
+RoxygenNote: 7.2.0
